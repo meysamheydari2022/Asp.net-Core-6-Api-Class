@@ -17,7 +17,7 @@ namespace Entities
 	//int 
 	//GUID  => GLobal Unique Identifier 
 
-	public class BaseEntity : BaseEntity<int>
+	public abstract class BaseEntity : BaseEntity<int>
 	{
 
 	}

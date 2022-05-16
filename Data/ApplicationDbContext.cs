@@ -10,13 +10,13 @@ using System.Threading.Tasks;
 
 namespace Data
 { 
-	public class ApplicationDbContext:IdentityDbContext 
+	public class ApplicationDbContext:DbContext 
 	{
 		public ApplicationDbContext(DbContextOptions options):base(options)
 		{
 
 		}
-
+	
 		//protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 		//{
 		//	base.OnConfiguring(optionsBuilder);
